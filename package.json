@@ -1,0 +1,28 @@
+{
+  "name": "gowest",
+  "version": "1.0.0",
+  "description": "SMS daily sender for temperature differences",
+  "main": "index.js",
+  "scripts": {
+    "start": "bin/start",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sampurcell/gowest.git"
+  },
+  "author": "Sam Purcell <samuel.f.purcell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sampurcell/gowest/issues"
+  },
+  "homepage": "https://github.com/sampurcell/gowest#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^5.1.1",
+    "winston": "^3.2.1"
+  }
+}
